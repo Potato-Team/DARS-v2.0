@@ -43,7 +43,7 @@ Our file structure ideas are from:
 The **root** directory contains **x** main folders:
 
 * **public**: Serves as the landing page for any users/requests to the system i.e. the *Front-End*.
-* **classes**: Contains the heart of the system i.e. the main classes/models that handles requests, accesses the database and a lot more. Uses abstraction to make working with the system much simpler. These are the current classes within the system. \*(subject to change)
+* **classes**: Contains the heart of the system i.e. the main classes/models that handles requests, accesses the database and a lot more. Uses abstraction to make working with the system much simpler. These are the current classes within the system. *(subject to change)*
   * config
   * user
   * database
