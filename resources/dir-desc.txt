@@ -1,0 +1,1 @@
+This directory contains the views as well as your raw, un-compiled assets such as LESS/SASS, JavaScript etc.

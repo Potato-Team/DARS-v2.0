@@ -1,0 +1,1 @@
+This directory contains the index.php file, which is the entry point for all requests entering your application. This directory also houses your assets such as images, JavaScript, and CSS.
