@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>University Data entry form</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<br>
+		<div class="container" style="border:1px; border-style: solid; border-color: black;">
+			<nav class="navbar navbar-expand-sm navbar-light">
+				<ul class="navbar-nav">
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+							University
+						</a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="#">IUB</a>
+							<a class="dropdown-item" href="#">NSU</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+							School
+						</a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="#">SECS</a>
+							<a class="dropdown-item" href="#">SB</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+							Major
+						</a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="#">CSE</a>
+							<a class="dropdown-item" href="#">BBA</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+							Semester/Year
+						</a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="#">Spring-2018</a>
+							<a class="dropdown-item" href="#">Summer-2018</a>
+							<a class="dropdown-item" href="#">Autumn-2018</a>
+						</div>
+					</li>
+				</ul>
+			</nav>
+			<form>
+				<div class="form_container" style="padding:40px 350px">
+					<div class="form-group">
+						<label for="stud_id">Student ID:</label><br>
+						<input type="text" class="form-control" id="stud_id" placeholder="Enter student ID" required'>
+					</div>
+					<div class="form-group">
+						<label for="new_major">New Major:</label><br>
+						<input type="text" class="form-control" id="new_major" placeholder="Enter new major (if needed)">
+					</div>
+					<div class="btn_container" style="padding: 5px 44px;">
+						<button type="button" class="btn btn-primary">New/Save</button>
+						<button type="button" class="btn btn-success">Submit</button>
+						<button type="button" class="btn btn-danger">Delete</button>
+						<button type="button" class="btn btn-dark">Clear</button>
+					</div>
+				</div>
+			</form>
+    	</div>
+    </body>
+</html>
